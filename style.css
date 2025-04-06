@@ -1,37 +1,74 @@
-/* style.css */
-
-/* Định dạng cho toàn bộ trang */
+/* Đặt màu nền, phông chữ cho toàn bộ trang */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    background-color: #121212;
+    color: #fff;
 }
 
-/* Định dạng cho tiêu đề */
+/* Giao diện header */
 header {
-    background-color: #333;
-    color: white;
     text-align: center;
+    background-color: #282828;
     padding: 20px;
 }
 
-/* Định dạng cho các phần hành tinh */
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #00bcd4;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Giao diện phần các thiên thể (hành tinh, thiên hà) */
+.galaxy {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
 .planet {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 20px;
+    background-color: #333;
     padding: 15px;
+    border-radius: 10px;
+    width: 400px;
     text-align: center;
 }
 
 .planet h2 {
-    color: #333;
+    color: #ff5722;
+    font-size: 1.8em;
+    margin: 20px 0;
 }
 
-.planet img {
-    width: 200px;
+.planet p {
+    font-size: 1.1em;
+}
+
+/* Tạo kiểu cho hình ảnh */
+.planet-image {
+    width: 100%;
     height: auto;
-    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Giao diện footer */
+footer {
+    text-align: center;
+    background-color: #282828;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #bbb;
+    font-size: 1em;
 }
