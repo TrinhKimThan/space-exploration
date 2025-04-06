@@ -1,0 +1,37 @@
+/* style.css */
+
+/* Định dạng cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Định dạng cho tiêu đề */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Định dạng cho các phần hành tinh */
+.planet {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.planet h2 {
+    color: #333;
+}
+
+.planet img {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
